@@ -36,6 +36,9 @@ def output_text(text):
 
 while(1):
     text = record_text()
+    if text == 'exit':
+        print("Exiting...")
+        break
     output_text(text)
     print(text)
 
